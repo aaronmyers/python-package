@@ -16,7 +16,7 @@ import fake
 class TestFake(unittest.TestCase):
 
     def setUp(self):
-        self.message = 'hello'
+        self.message = 'hello what'
 
     def test_something(self):
         output = fake.hello()
